@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 m-0;
+    }
+
+    body {
+        @apply text-base text-dark-silver bg-raisin-black lg:text-lg;
+        font-family: 'Open Sans', serif;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        @apply uppercase tracking-[0.4em] text-2xl lg:text-3xl;
+    }
+
+    h2 {
+        @apply uppercase text-xl tracking-widest lg:text-2xl;
+    }
+
+    h3 {
+        @apply uppercase text-light-silver tracking-[0.2em] font-semibold text-lg lg:text-base;
+    }
+
+    section {
+        @apply pt-20 pb-16 lg:pt-40 lg:pb-32;
+    }
+
+    input {
+        @apply focus-visible:outline-none placeholder:text-dark-silver w-full bg-raisin-black border-b border-dark-silver border-solid py-[10px] hover:border-white focus:border-white transition duration-300;
+    }
+
+    textarea {
+        @apply focus-visible:outline-none placeholder:text-dark-silver w-full bg-raisin-black border-b border-dark-silver border-solid py-[10px] hover:border-white focus:border-white transition duration-300;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.267);
+
+    &-thumb {
+        background-color: rgb(110, 110, 110);
+        border-radius: 0.5rem;
+        transition: all 0.3s;
+    }
+}
