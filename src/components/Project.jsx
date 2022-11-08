@@ -32,18 +32,23 @@ const Project = () => {
     }, [])
     return (
         <section className="container">
-            <h2 className="text-center mb-20">My personal work</h2>
+            <h2 className="text-center mb-20">My recent works</h2>
             <animated.div ref={reference} style={{ transform: animation.transform, opacity: animation.opacity }} className="flex flex-wrap justify-center items-center gap-10 lg:gap-20 xl:gap-x-[10%] xl:gap-y-24">
+                <a href='https://celerity.gtsb.io/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/celerity.webp')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
+                    <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Celerity</h3>
+                </a>
+                <a href='https://saigondigital.gatsbyjs.io/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/halloween.png')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
+                    <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Saigon Digital</h3>
+                </a>
+                <a href='https://www.futureplatforms.com/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/FP.png')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
+                    <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Future Platform</h3>
+                </a>
                 <a href='https://phandangkhoa96.github.io/HalloweenPage/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/halloween.png')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
                     <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Haloween Landing page</h3>
                 </a>
 
                 <a href='https://phandangkhoa96.github.io/HeadphoneLP/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/headphone.jpg')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
                     <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Headphone Landing page</h3>
-                </a>
-
-                <a href='https://cocktails-menu-pi.vercel.app/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/cocktail.jpg')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
-                    <h3 className="relative z-10 text-white px-14 text-center leading-loose group-hover:hidden">Cocktail List</h3>
                 </a>
 
                 <a href='https://travel-landing-page-bay.vercel.app/' target="_blank" className="w-full max-w-full opacity-50 aspect-square bg-raisin-black shadow-[0_0.1em_1em_0] shadow-black/40 grid place-items-center bg-[url('/travel.jpg')] bg-cover bg-no-repeat bg-center hover:opacity-80 transition-all duration-300 grayscale hover:grayscale-0 md:w-[calc(50%-40px)] lg:w-[calc(50%-80px)] xl:w-[23%] group">
